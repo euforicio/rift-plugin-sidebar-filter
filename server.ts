@@ -7,8 +7,8 @@
 // It also exposes a small RPC surface so the plugin's project ⋯ menu can
 // drive the same host-owned project/thread mutations the built-in sidebar
 // uses (rename, archive-all, delete).
-import type { BbPluginApi } from "@get-bb/plugin-sdk";
-import { defineRpcContract } from "@get-bb/plugin-sdk";
+import type { RiftPluginApi } from "@riftlabs/plugin-sdk";
+import { defineRpcContract } from "@riftlabs/plugin-sdk";
 import { z } from "zod";
 
 export const rpcContract = defineRpcContract({
@@ -26,7 +26,7 @@ export const rpcContract = defineRpcContract({
   },
 });
 
-export default async function plugin(bb: BbPluginApi) {
+export default async function plugin(bb: RiftPluginApi) {
   bb.settings.define({
     hideEmptyProjects: {
       type: "boolean",

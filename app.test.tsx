@@ -3,12 +3,12 @@ import { cleanup, fireEvent, waitFor } from "@testing-library/react";
 import {
   loadPluginApp,
   renderSlot,
-} from "@get-bb/plugin-sdk/testing/app";
+} from "@riftlabs/plugin-sdk/testing/app";
 import type {
   PluginSidebarProject,
   PluginSidebarThread,
   PluginThreadListProps,
-} from "@get-bb/plugin-sdk/app";
+} from "@riftlabs/plugin-sdk/app";
 import {
   afterEach,
   beforeAll,
@@ -62,6 +62,7 @@ const slotProps: PluginThreadListProps = {
   isCompactViewport: false,
   onNavigate: vi.fn(),
   searchQuery: "",
+  Original: () => null,
   experimental_Original: () => null,
 };
 

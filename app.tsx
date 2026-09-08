@@ -33,13 +33,13 @@ import {
   experimental_useSidebarThreads,
   useRpc,
   useSettings,
-} from "@get-bb/plugin-sdk/app";
+} from "@riftlabs/plugin-sdk/app";
 import type { rpcContract } from "./server";
 import type {
   PluginSidebarProject,
   PluginSidebarThread,
   PluginThreadListProps,
-} from "@get-bb/plugin-sdk/app";
+} from "@riftlabs/plugin-sdk/app";
 
 const COLLAPSED_KEY = "bb-plugin-sidebar-filter.collapsed-projects";
 

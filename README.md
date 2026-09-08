@@ -78,6 +78,11 @@ bb plugin config sidebar-filter set activeMode exists   # or running
   slot and renders `experimental_useSidebarThreads()` data — the exact same
   live cache the built-in list uses — filtered by the settings.
 
+## Fork provenance
+
+Rift Labs fork: https://github.com/euforicio/rift-plugin-sidebar-filter
+Upstream: https://github.com/slogsdon/bb-plugin-sidebar-filter
+
 ## Development
 
 ```sh

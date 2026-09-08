@@ -1,11 +1,11 @@
 {
   "sdkMajor": 0,
-  "sdkVersion": "0.4.14",
+  "sdkVersion": "0.4.1",
   "artifactFormatVersion": 1,
-  "pluginId": "sidebar-filter",
+  "pluginId": "rift-plugin-sidebar-filter",
   "pluginVersion": "0.3.0",
   "builtWith": {
-    "bbVersion": "0.39.1-nightly.32567325585.1",
-    "pluginSdkVersion": "0.4.14"
+    "bbVersion": "0.37.0",
+    "pluginSdkVersion": "0.4.1"
   }
 }
